@@ -11,6 +11,7 @@ namespace Folder
     {
         // 宣告Random
         static Random next = new Random();
+
         static void Main(string[] args)
         {
             // 說明
@@ -19,7 +20,7 @@ namespace Folder
             // 最初的輸入
             Console.WriteLine("\r\n請輸入你的目錄資料夾名稱");
             string path = Console.ReadLine();
-;           
+
             // 看有沒有人長一樣
             try
             {
